@@ -11,13 +11,13 @@
 
 Depuis la racine du site, faire :
 
-* `npm install` => Récupère les dépendances du site
-* `npm start` => Compile et lance le site
+* `yarn install` => Récupère les dépendances du site
+* `yarn start` => Compile et lance le site
 * Dans votre navigateur préféré, saisir : http://127.0.0.1:8080/
 
 #### Déployer le site
 
 Pour valider le site, depuis la racine du site :
 
-* `npm run build` => Le site est généré dans le dossier public
+* `yarn run build` => Le site est généré dans le dossier public
 * Se rendre dans le dossier public et lancez lancez le fichier index.html
