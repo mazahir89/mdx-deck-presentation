@@ -1,0 +1,54 @@
+* {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 10px */
+  font-size: calc(1em * 0.625); /* Fix IE9-IE11 */
+}
+
+[class^=Slide__Root] {
+  position: relative;
+}
+
+img[alt="Moi"] {
+  float: left;
+  clear: both;
+  width: 25%;
+}
+
+img[alt="Moi"] + blockquote {
+  position: relative;
+  margin-left: 500px;
+  border: 2px solid #000000;
+  border-radius: 40px;
+}
+
+blockquote::before {
+  content: "";
+  position: absolute;
+    top: 130px;
+    left: -170px;
+  width: 0;
+  height: 0;
+  border-top: 70px solid #000000;
+  border-left: 170px solid transparent;
+}
+
+blockquote::after {
+  content: "";
+  position: absolute;
+    top: 132px;
+    left: -160px;
+  z-index: 1;
+  width: 0;
+  height: 0;
+  border-top: 70px solid #ECE2C7;
+  border-left: 170px solid transparent;
+}
+
+blockquote p {
+  margin: 2% 0;
+  text-align: center;
+}

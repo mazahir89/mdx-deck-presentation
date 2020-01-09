@@ -1,0 +1,32 @@
+import Layout from './layouts/layout';
+import Navigation from './utils/navigation';
+import { FirstSlide } from './first_slide';
+import { CodeSurfer } from 'mdx-deck-code-surfer';
+
+<FirstSlide title="Simply React ⚛️" subtitle="Why I love React Patterns so much">
+
+# Super test
+
+</FirstSlide>
+
+---
+
+<Layout previous={Navigation.intro1.label} previousNumber={Navigation.intro1.page} title="title" next={Navigation.intro2.label} nextNumber={Navigation.intro2.page}>
+
+# Slide 4
+
+Coucou
+
+</Layout>
+
+---
+
+<Layout previous="previous" previousNumber="5" title="title" next="next" nextNumber="5">
+
+# Slide 5
+
+</Layout>
+
+---
+
+<CodeSurfer lang="markdown" code={ require("!raw-loader!./slide6.mdx") } />

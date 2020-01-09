@@ -1,0 +1,21 @@
+{
+  "name": "mdx-deck-presentation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "mdx-deck index.js",
+    "prebuild": "rimraf public",
+    "build": "mdx-deck build index.js --no-html --out-dir public",
+    "postbuild": "cpy --parents \"presentation/images/**\" public",
+    "pdf": "mdx-deck pdf index.js"
+  },
+  "dependencies": {
+    "cpy-cli": "2.0.0",
+    "css-loader": "2.1.0",
+    "mdx-deck": "1.10.0",
+    "mdx-deck-code-surfer": "0.5.5",
+    "raw-loader": "1.0.0",
+    "rimraf": "2.6.3",
+    "style-loader": "0.23.1"
+  }
+}
