@@ -1,6 +1,6 @@
 import React from 'react';
-import Navigation from '../utils/navigation';
-import * as styled from './table_content.styled';
+import Navigation from '../../utils/navigation';
+import * as styled from './styled';
 
 function TableOfContent() {
   return (
@@ -13,5 +13,5 @@ function TableOfContent() {
   );
 }
 
-export { TableOfContent };
+export { TableOfContent, styled };
 

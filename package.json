@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "mdx-deck index.js",
+    "start": "mdx-deck index.jsx",
     "prebuild": "rimraf public",
     "build": "mdx-deck build index.js --no-html --out-dir public",
     "postbuild": "cpy --parents \"presentation/images/**\" public",
