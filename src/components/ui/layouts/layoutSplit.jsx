@@ -21,3 +21,4 @@ const LayoutSplit = ({ children }) => {
 };
 
 export default LayoutSplit;
+export { styled };

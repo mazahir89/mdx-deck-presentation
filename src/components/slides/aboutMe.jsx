@@ -94,3 +94,4 @@ function AboutMe() {
   }
 
   export default AboutMe;
+  export { styled };

@@ -16,3 +16,4 @@ const Layout = ({ children, previous, title, next }) => {
 };
 
 export default Layout;
+export { styled };

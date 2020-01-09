@@ -17,3 +17,4 @@ const Provider = ({ children, ...rest }) => (
 );
 
 export default Provider;
+export { styled };
