@@ -1,4 +1,4 @@
-export { default as theme } from './src/themes/theme';
+export { default as theme } from './src/components/ui/themes/theme';
 
 import introduction from './src/introduction.mdx';
 import tableOfContent from './src/table_content.mdx';
